@@ -1,5 +1,7 @@
 <template>
-  <div class="container h-full mx-auto px-8 md:ml-32 flex justify-center flex-col text-white">
+  <div
+    class="container h-full mx-auto px-8 md:ml-32 lg:mx-auto flex justify-center flex-col text-white"
+  >
     <div class="md:w-1/2">
       <h1 class="text-5xl">hylight</h1>
       <h2 class="text-xl my-12">
