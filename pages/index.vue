@@ -1,8 +1,8 @@
 <template>
-  <div class="container h-full ml-32 flex justify-center flex-col text-white">
-    <div class="w-1/2">
+  <div class="container h-full mx-auto px-8 md:ml-32 flex justify-center flex-col text-white">
+    <div class="md:w-1/2">
       <h1 class="text-5xl">hylight</h1>
-      <h2 class="text-xl my-10">
+      <h2 class="text-xl my-12">
         Hylight manages the creation of YouTube highlight videos from your Twitch videos.
         We'll find your best clips, compile them and upload them to your channel,
         enabling you to focus on what matters most.
@@ -10,7 +10,7 @@
 
       <div class="mb-3">
         <input
-          class="shadow appearance-none border rounded py-2 px-4 w-5/6 text-grey-darker leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border rounded py-2 px-4 w-full sm:w-5/6 text-grey-darker leading-tight focus:outline-none focus:shadow-outline"
           id="email"
           type="email"
           placeholder="Your email address"
