@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const pkg = require('./package')
 
 module.exports = {
@@ -16,7 +18,8 @@ module.exports = {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     bodyAttrs: {
       class: 'font-sans h-screen'
-    }
+    },
+    script: []
   },
 
   /*
@@ -32,7 +35,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [{ src: '~plugins/firebase.client.js', ssr: false }],
 
   /*
   ** Nuxt.js modules
